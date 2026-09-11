@@ -1,6 +1,8 @@
 body {
-    background-color:blue;
+    background-color: #cae3f1;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -26,6 +28,10 @@ body {
 }
 .footer-container {
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .container, .footer-container, .header-container {
